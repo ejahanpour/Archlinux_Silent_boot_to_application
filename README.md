@@ -3,7 +3,8 @@
 2- logind.conf should be replaced by the similar file in /etc/systemd/logind.conf (Includes the information to enable AutoVTs=6) 
 
 3- then we should edit the getty@tty1 file by running the following command:
-	$ ###sudo systemctl edit getty@tty1
+
+	$ ### sudo systemctl edit getty@tty1
 and using the codes below:
 
 [Service]
