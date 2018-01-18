@@ -23,4 +23,4 @@ and using the codes below:
 5- modify the terminal command to open application in ~/.xinitrc file 
 
 
-##### I am also trying to build a makefile for this project to automate the process. Please let me know if you are familiar with Unix platforms and interested in collaborating on building this makefile. You might know how to contact me, but in case :) [jahanpour.ehsan@gmail.com](jahanpour.ehsan@gmail.com)
+##### I am also trying to build a makefile for this project to automate the process. Please let me know if this could help you as well or if you are familiar with Unix platforms and interested in collaborating in this applcation. You might know how to contact me, but in case, if you are not :) [jahanpour.ehsan@gmail.com](jahanpour.ehsan@gmail.com) is my email.
