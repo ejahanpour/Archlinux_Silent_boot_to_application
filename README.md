@@ -4,12 +4,13 @@
 
 3- then we should edit the getty@tty1 file by running the following command:
 
-	$ ### sudo systemctl edit getty@tty1
+	sudo systemctl edit getty@tty1
+	
 and using the codes below:
 
-[Service]
-ExecStart=
-ExecStart=-/usr/bin/agetty --skip-login --login-option "-f username“ %I 38400 linux
+	[Service]
+	ExecStart=
+	ExecStart=-/usr/bin/agetty --skip-login --login-option "-f username“ %I 38400 linux
 
 4- Need to edit the ~/.bash_profile to enable Xsession for possible application that have graphical requirements (can not be run solely through Terminal)
 
